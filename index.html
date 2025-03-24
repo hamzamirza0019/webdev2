@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduport Header</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style type="text/css">
+        .card-title a {
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <body>
+        <header class="bg-light py-3">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <!-- Logo -->
+                    <a href="#" class="navbar-brand d-flex align-items-center">
+                        <img src="images/logo.png" alt="Eduport" style="height: 40px;">
+                        <span class="ms-2 fw-bold"></span>
+                    </a>
+    
+                    <!-- Navigation -->
+                    <nav class="d-none d-lg-flex">
+                        <ul class="navbar-nav d-flex flex-row">
+                            <li class="nav-item mx-2 dropdown">
+                                <a class="nav-link dropdown-toggle" id="demosDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Demos</a>
+                                <ul class="dropdown-menu" aria-labelledby="demosDropdown">
+                                    <li><a class="dropdown-item" href="#">Home Education</a></li>
+                                    <li><a class="dropdown-item" href="#">Home Academy</a></li>
+                                    <li><a class="dropdown-item" href="#">Home Course</a></li>
+                                    <li><a class="dropdown-item" href="#">Home University</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item mx-2 dropdown">
+                                <a class="nav-link dropdown-toggle" id="pagesDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                                <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item mx-2 dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="accountsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Accounts</a>
+                                <ul class="dropdown-menu" aria-labelledby="accountsDropdown">
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item mx-2 dropdown">
+                                <a class="nav-link dropdown-toggle" id="megamenuDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Megamenu</a>
+                                <ul class="dropdown-menu" aria-labelledby="megamenuDropdown">
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+    
+                    <!-- Search and Profile -->
+                    <div class="d-flex align-items-center">
+                        <form class="d-flex me-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-primary" type="submit"><span class="bi bi-search"></span></button>
+                        </form>
+                        <a href="#" class="d-flex align-items-center">
+                            <img src="images/My pic  hamz 145kb.jpg" alt="Profile" class="rounded-circle" style="height: 40px; width: 40px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <!-- Body Section -->
+        <main class="py-5">
+            <div class="container">
+                <!-- Stats Section -->
+                <div class="row text-center mb-5">
+                    <div class="col-md-3">
+                        <div class="bg-light p-4 rounded">
+                            <span class="bi bi-laptop fs-1 text-warning"></span>
+                            <h5 class="mt-3">10K</h5>
+                            <p class="mb-0">Online Courses</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="bg-light p-4 rounded">
+                            <span class="bi bi-people fs-1 text-primary"></span>
+                            <h5 class="mt-3">200+</h5>
+                            <p class="mb-0">Expert Tutors</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="bg-light p-4 rounded">
+                            <span class="bi bi-person-video3 fs-1 text-primary"></span>
+                            <h5 class="mt-3">60K+</h5>
+                            <p class="mb-0">Online Students</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="bg-light p-4 rounded">
+                            <span class="bi bi-award fs-1 text-primary"></span>
+                            <h5 class="mt-3">6K+</h5>
+                            <p class="mb-0">Certified Courses</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Courses Section -->
+                <h2 class="text-center mb-4">Most Popular Courses</h2>
+                <p class="text-center text-muted mb-5">Choose from hundreds of courses from specialist organizations</p>
+                <!-- Tab Navigation Section -->
+                <div class="container mb-5">
+                    <ul class="nav nav-pills justify-content-center bg-light p-2 rounded">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Web Design</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Development</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Graphic Design</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Marketing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Finance</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="images/course1.png" class="card-img-top" alt="Course 1">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Sketch from A to Z</a></h5>
+                                    <p class="card-text text-muted">For app designers</p>
+                                    <p class="card-text"><span class="bi bi-clock"></span> 12h 56m | 15 lectures</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="images/course2.png" class="card-img-top" alt="Course 2">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Graphic Design Masterclass</a></h5>
+                                    <p class="card-text text-muted">Beginner level</p>
+                                    <p class="card-text"><span class="bi bi-clock"></span> 9h 56m | 65 lectures</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="images/course3.png" class="card-img-top" alt="Course 3">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Create a Design System</a></h5>
+                                    <p class="card-text text-muted">In Figma</p>
+                                    <p class="card-text"><span class="bi bi-clock"></span> 5h 56m | 32 lectures</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="images/course4.png" class="card-img-top" alt="Course 4">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Deep Learning with React</a></h5>
+                                    <p class="card-text text-muted">Advanced level</p>
+                                    <p class="card-text"><span class="bi bi-clock"></span> 18h 56m | 99 lectures</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="images/course5.png" class="card-img-top" alt="Course 1">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Build Responsive Websites with HTM</a>L</h5>
+                                    <p class="card-text text-muted">Far advanced settling say finished raillery. Offered chiefly...</p>
+                                    <p class="card-text"><span class="bi bi-clock"></span> 12h 56m | 15 lectures</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="images/course6.png" class="card-img-top" alt="Course 2">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Build Websites with CSS</a></h5>
+                                    <p class="card-text text-muted">Far advanced settling say finished raillery. Offered chiefly...</p>
+                                    <p class="card-text"><span class="bi bi-clock"></span> 9h 56m | 65 lectures</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="images/course7.png" class="card-img-top" alt="Course 3">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Learn Invision</a></h5>
+                                    <p class="card-text text-muted">Arrived off she elderly beloved him Course regard to up he hardly.</p>
+                                    <p class="card-text"><span class="bi bi-clock"></span> 5h 56m | 32 lectures</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="images/course8.png" class="card-img-top" alt="Course 4">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">JavaScript: Full Understanding</a></h5>
+                                    <p class="card-text text-muted">Far advanced settling say finished raillery. Offered chiefly...</p>
+                                    <p class="card-text"><span class="bi bi-clock"></span> 18h 56m | 99 lectures</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="bg-light py-5">
+            <div class="container">
+                <div class="row">
+                    <!-- About Section -->
+                    <div class="col-md-3 mb-4">
+                        <h5 class="fw-bold">Eduport</h5>
+                        <p class="text-muted">Eduport education theme, built specifically for the education centers which is dedicated to teaching and involve learners.</p>
+                        <!-- Social Media Icons -->
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-outline-secondary btn-sm rounded-circle me-2"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm rounded-circle me-2"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm rounded-circle me-2"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm rounded-circle"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+        
+                    <!-- Company Links -->
+                    <div class="col-md-2 mb-4">
+                        <h5 class="fw-bold">Company</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-muted text-decoration-none">About us</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Contact us</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">News and Blogs</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Library</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Career</a></li>
+                        </ul>
+                    </div>
+        
+                    <!-- Community Links -->
+                    <div class="col-md-2 mb-4">
+                        <h5 class="fw-bold">Community</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-muted text-decoration-none">Documentation</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">FAQ</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Forum</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Sitemap</a></li>
+                        </ul>
+                    </div>
+        
+                    <!-- Teaching Links -->
+                    <div class="col-md-2 mb-4">
+                        <h5 class="fw-bold">Teaching</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-muted text-decoration-none">Become a teacher</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">How to guide</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+        
+                    <!-- Contact Section -->
+                    <div class="col-md-3 mb-4">
+                        <h5 class="fw-bold">Contact</h5>
+                        <p class="text-muted mb-1">Toll free: <span class="fw-bold">+1234 568 963</span></p>
+                        <p class="text-muted mb-3">(9:AM to 8:PM IST)</p>
+                        <p class="text-muted mb-3">Email: <a href="mailto:mirza.king0019@gmail.com" class="text-decoration-none">mirza.king0019@gmail.com</a></p>
+                        <!-- App Store Links -->
+                        <div class="d-flex">
+                            <a href="#" class="me-2">
+                                <img src="images/both.png" alt="Google Play" class="img-fluid" style="height: 50px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
